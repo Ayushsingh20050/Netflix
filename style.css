@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    /* width: 76px; */
+    /* height: 32px; */
+}
+
+#signin {
+    background-color: red;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    height: 35px;
+    width: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+}
+#signin:hover{
+    opacity: 0.8;
+    
+}
+
+#lang {
+    width: 130px;
+    height: 35px;
+    background-color:transparent;
+    color: #ffffff;
+    font-size: 14px;
+    /* font-weight: 700; */
+    margin-left: 800px;
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.main_content {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 90px;
+    width: 100vw;
+}
+
+.back {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/67033404-2df8-42e0-a5a0-4c8288b4da2c/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 85vh;
+    /* opacity: 0.77; */
+    background-size: contain;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 16px 0px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#start {
+    height: 55px;
+    width: 250px;
+    font-size: 24px;
+    background-color:#e50914;
+    color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+#start:hover{
+    opacity: 0.8;
+}
+
+#email {
+    height: 55px;
+    width: 450px;
+    font-size: 20px;
+    background-color:transparent;
+    color: #ffffff;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 10px;
+    box-sizing: border-box;
+    /* opacity: 0.3; */
+}
+
+#email::placeholder {
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 4px solid gray;
+    height: 550px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.header img {
+    height: 100px;
+    width: 200px;
+    margin-left: 120px;
+}
+
+.heading {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.questions {
+    width: 1000px;
+    height: 80px;
+    background-color: #444444;
+    color: #ffffff;
+    /* text-align: center; */
+    margin-left: 250px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* border: 4px solid black; */
+    /* border-radius: 4px; */
+    margin-bottom: 10px;
+    padding: 25px;
+
+}
+.questions:hover{
+    opacity: 0.8;
+
+}
+
+.faqs {
+    border-top: 4px solid gray;
+}
+
+.ready {
+    text-align: center;
+    margin-top: 60px;
+    /* border-bottom: 4px solid gray; */
+    margin-bottom: 40px;
+}
+.border_bottom{
+    border-bottom: 4px solid gray;
+    margin-bottom: 50px;
+}
